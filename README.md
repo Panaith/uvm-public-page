@@ -30,7 +30,8 @@ This process creates installation folder for uvm project.
 1. Download latest [release](https://github.com/Panaith/uvm.github.io/releases/latest).
 1. Extract .zip file.
 1. Open extracted folder find "uvm_install.bat" file and execute it.
-1. Click "Yes" in Powershell prompt.
+1. Click "Yes" in Powershell prompt:
+   ![powershell admin mode](./assets/powershell_admin_mode.png)
 1. Follow instructions...
 
 ### What happens
@@ -69,6 +70,8 @@ For example if you added "Java" utility
         1. Create a subfolder named according to the version you downloaded.
         1. Execute the executable and select as installation path the subfolder you created in previous step.
 1. Do this whenever you want to support a **new** utility version.
+1. Keep a structure as:
+   ![utilities - Version - Directory](./assets/utilities_versions_directory.png)
 
 ### What happens
 Now for each utility, you have multiple versions.
